@@ -1,0 +1,14 @@
+E:\DSA_C_sharp\ArraysDS\bin\Debug\net8.0\ArraysDS.exe
+E:\DSA_C_sharp\ArraysDS\bin\Debug\net8.0\ArraysDS.deps.json
+E:\DSA_C_sharp\ArraysDS\bin\Debug\net8.0\ArraysDS.runtimeconfig.json
+E:\DSA_C_sharp\ArraysDS\bin\Debug\net8.0\ArraysDS.dll
+E:\DSA_C_sharp\ArraysDS\bin\Debug\net8.0\ArraysDS.pdb
+E:\DSA_C_sharp\ArraysDS\obj\Debug\net8.0\ArraysDS.GeneratedMSBuildEditorConfig.editorconfig
+E:\DSA_C_sharp\ArraysDS\obj\Debug\net8.0\ArraysDS.AssemblyInfoInputs.cache
+E:\DSA_C_sharp\ArraysDS\obj\Debug\net8.0\ArraysDS.AssemblyInfo.cs
+E:\DSA_C_sharp\ArraysDS\obj\Debug\net8.0\ArraysDS.csproj.CoreCompileInputs.cache
+E:\DSA_C_sharp\ArraysDS\obj\Debug\net8.0\ArraysDS.dll
+E:\DSA_C_sharp\ArraysDS\obj\Debug\net8.0\refint\ArraysDS.dll
+E:\DSA_C_sharp\ArraysDS\obj\Debug\net8.0\ArraysDS.pdb
+E:\DSA_C_sharp\ArraysDS\obj\Debug\net8.0\ArraysDS.genruntimeconfig.cache
+E:\DSA_C_sharp\ArraysDS\obj\Debug\net8.0\ref\ArraysDS.dll
