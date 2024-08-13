@@ -26,10 +26,21 @@ public class Program{
         #endregion
 
         #region rotation of array
-        int[] arrRotate = [1,2,3,4,5];
-        RotateArrayClass rotateArrayClass = new RotateArrayClass();
-        int[] rotated = rotateArrayClass.RotateArray(arrRotate,6);
-        Console.WriteLine(string.Join(",",rotated));
+        // int[] arrRotateToRight = [1,2,3,4,5];
+        // int[] arrRotateToLeft = [1,2,3,4,5];
+        // RotateArrayClass rotateArrayClass = new RotateArrayClass();
+
+        // int[] rotatedToRight = rotateArrayClass.RotateArrayToRight(arrRotateToRight,3);
+        // Console.WriteLine(string.Join(",",rotatedToRight));
+
+        // int[] rotatedToLeft = rotateArrayClass.RotateArrayToLeft(arrRotateToLeft,3);
+        // Console.WriteLine(string.Join(",",rotatedToLeft));
+        #endregion
+
+        #region Find first character without duplicates
+        FirstNonRepeatedCharacterInString firstNonRepeatedCharacterInString= new FirstNonRepeatedCharacterInString();
+        char first = firstNonRepeatedCharacterInString.FirstNonRepeatedChar("hhello");
+        Console.WriteLine(first);
         #endregion
     }
 }

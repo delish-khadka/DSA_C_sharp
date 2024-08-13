@@ -12,3 +12,4 @@ E:\DSA_C_sharp\ArraysDS\obj\Debug\net8.0\refint\ArraysDS.dll
 E:\DSA_C_sharp\ArraysDS\obj\Debug\net8.0\ArraysDS.pdb
 E:\DSA_C_sharp\ArraysDS\obj\Debug\net8.0\ArraysDS.genruntimeconfig.cache
 E:\DSA_C_sharp\ArraysDS\obj\Debug\net8.0\ref\ArraysDS.dll
+E:\DSA_C_sharp\ArraysDS\obj\Debug\net8.0\ArraysDS.sourcelink.json
