@@ -38,9 +38,15 @@ public class Program{
         #endregion
 
         #region Find first character without duplicates
-        FirstNonRepeatedCharacterInString firstNonRepeatedCharacterInString= new FirstNonRepeatedCharacterInString();
-        char first = firstNonRepeatedCharacterInString.FirstNonRepeatedChar("hhello");
-        Console.WriteLine(first);
+        // FirstNonRepeatedCharacterInString firstNonRepeatedCharacterInString= new FirstNonRepeatedCharacterInString();
+        // char first = firstNonRepeatedCharacterInString.FirstNonRepeatedChar("hhello");
+        // Console.WriteLine(first);
+        #endregion
+
+        #region Anagram checker
+        AnagramChecker anagramChecker = new AnagramChecker();
+        var IsAnagram = anagramChecker.IsAnagram("silent","listen");
+        Console.WriteLine(IsAnagram);
         #endregion
     }
 }
