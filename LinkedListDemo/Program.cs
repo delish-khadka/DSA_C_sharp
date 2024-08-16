@@ -14,3 +14,6 @@ LinkedListExercises linkedListExercises = new(singlyLinkedList);
 linkedListExercises.InsertAtBegin(1);
 singlyLinkedList.PrintList();
 
+linkedListExercises.InsertAtSpecificPosition(2,0);
+singlyLinkedList.PrintList();
+

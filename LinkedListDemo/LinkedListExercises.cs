@@ -14,7 +14,35 @@ public class LinkedListExercises{
         _singlyLinkedList.head = newNode;     
     }
 
-    public void InsertAtSpecificPosition(){}
+    public void InsertAtSpecificPosition(int index, int value){
+        Node newNode = new Node(value);
+        int counter = 0;
+        if(index == 0){
+            newNode.Next = _singlyLinkedList.head;
+            _singlyLinkedList.head = newNode; 
+            return;
+        }
+        Node temp = _singlyLinkedList.head;
+        
+
+        // Traverse to the node before the insertion point
+        while (temp != null && counter < index - 1)
+        {
+            temp = temp.Next;
+            counter++;
+        }
+
+        // If position is beyond the list length
+        if (temp == null)
+        {
+            throw new ArgumentException("Invalid position");
+        }
+
+        // Insert the new node
+        newNode.Next = temp.Next;
+        temp.Next = newNode;
+
+    }
 
 
 }
