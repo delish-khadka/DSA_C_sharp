@@ -4,7 +4,7 @@ namespace LinkedListDemo;
 
 public class SinglyLinkedList
 {
-    private Node head;
+    public Node head;
 
     public SinglyLinkedList()
     {
@@ -91,9 +91,14 @@ public class SinglyLinkedList
             slow = slow.Next;
             fast = fast.Next.Next;
 
-            if (slow == fast)
+            if (slow == fast){
+                Console.WriteLine("LL has loop");
                 return true;
+            }
+                
         }
+        Console.WriteLine("LL does not has loop");
+
         return false;
     }
 }
