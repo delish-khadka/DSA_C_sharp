@@ -44,5 +44,33 @@ public class LinkedListExercises{
 
     }
 
+    public void DeleteAtBeginning(){
+        Node temp = _singlyLinkedList.head;
+        if (temp != null){
+            _singlyLinkedList.head = temp.Next;
+        }
+    }
+
+    public void DeleteLastNode() {
+        if (_singlyLinkedList.head == null) {
+            return;  // List is empty, nothing to delete
+        }
+
+        Node temp = _singlyLinkedList.head;
+
+        if (temp.Next == null) {
+            // List has only one node
+            _singlyLinkedList.head = null;  // Remove the only node, making the list empty
+            return;
+        }
+
+        // Traverse the list until you find the second last node
+        while (temp.Next.Next != null) {
+            temp = temp.Next;
+        }
+
+        // Set the second last node's Next to null, effectively removing the last node
+        temp.Next = null;
+    }
 
 }

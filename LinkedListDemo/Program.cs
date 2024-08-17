@@ -14,6 +14,10 @@ LinkedListExercises linkedListExercises = new(singlyLinkedList);
 linkedListExercises.InsertAtBegin(1);
 singlyLinkedList.PrintList();
 
-linkedListExercises.InsertAtSpecificPosition(2,0);
+linkedListExercises.InsertAtSpecificPosition(0,0);
+singlyLinkedList.PrintList();
+linkedListExercises.DeleteAtBeginning();
+singlyLinkedList.PrintList();
+linkedListExercises.DeleteLastNode();
 singlyLinkedList.PrintList();
 
