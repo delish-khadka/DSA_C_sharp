@@ -24,3 +24,5 @@ singlyLinkedList.PrintList();
 linkedListExercises.DeleteAtAPosition(1);
 singlyLinkedList.PrintList();
 
+int lengthOfLinkedList = linkedListExercises.LengthOfLinkedList();
+Console.WriteLine(lengthOfLinkedList);
