@@ -21,3 +21,6 @@ singlyLinkedList.PrintList();
 linkedListExercises.DeleteLastNode();
 singlyLinkedList.PrintList();
 
+linkedListExercises.DeleteAtAPosition(1);
+singlyLinkedList.PrintList();
+

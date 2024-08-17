@@ -73,4 +73,22 @@ public class LinkedListExercises{
         temp.Next = null;
     }
 
+    public void DeleteAtAPosition(int position) {
+        if (position == 0){
+            _singlyLinkedList.head = _singlyLinkedList.head.Next;
+            return;
+        }
+        int count = 0;
+        Node temp = _singlyLinkedList.head;
+        while (temp != null && count<position-1){
+            temp = temp.Next;
+            count++;
+        }
+        if(temp != null && temp.Next != null){
+            temp.Next = temp.Next.Next;
+        }
+    }
+
+    
+
 }
