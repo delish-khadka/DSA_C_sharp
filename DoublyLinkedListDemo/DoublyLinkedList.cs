@@ -35,5 +35,25 @@ public class DoublyLinkedList
         }
     }
 
-    
+    public void ReverseDoublyLinkedList(){
+        DoublyNode current = head;
+        DoublyNode temp = null;
+
+        while (current != null)
+        {
+            // Swap the Next and Prev pointers for each node
+            temp = current.Prev;
+            current.Prev = current.Next;
+            current.Next = temp;
+
+            // Move to the next node in the original order
+            current = current.Prev;
+        }
+
+        // After the loop, temp will be pointing to the new head
+        if (temp != null)
+        {
+            head = temp.Prev;
+        }
+    }
 }
