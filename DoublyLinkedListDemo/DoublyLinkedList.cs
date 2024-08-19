@@ -56,4 +56,41 @@ public class DoublyLinkedList
             head = temp.Prev;
         }
     }
+
+    // Delete a node with a specific value
+    public void Delete(int value)
+    {
+        // If the list is empty, there's nothing to delete, so return
+        if (head == null) return;
+
+        // If the head node contains the value to be deleted
+        if (head.Data == value)
+        {
+            head = head.Next;  // Move head to the next node
+            if (head != null) 
+                head.Prev = null;  // If the new head is not null, update its Prev pointer to null
+            return;  // Exit after deleting the head node
+        }
+
+        DoublyNode temp = head;
+        
+        // Traverse the list to find the node containing the value
+        while (temp != null && temp.Data != value)
+        {
+            temp = temp.Next;  // Move to the next node
+        }
+
+        // If the node containing the value is found
+        if (temp != null)
+        {
+            // If the node to delete is not the last node
+            if (temp.Next != null)
+                temp.Next.Prev = temp.Prev;  // Update the next node's Prev pointer
+
+            // If the node to delete is not the first node after head
+            if (temp.Prev != null)
+                temp.Prev.Next = temp.Next;  // Update the previous node's Next pointer
+        }
+    }
+
 }

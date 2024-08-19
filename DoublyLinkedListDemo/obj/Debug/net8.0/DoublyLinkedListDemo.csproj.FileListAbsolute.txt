@@ -1,0 +1,15 @@
+e:\DSA_C_sharp\DoublyLinkedListDemo\bin\Debug\net8.0\DoublyLinkedListDemo.exe
+E:\DSA_C_sharp\DoublyLinkedListDemo\bin\Debug\net8.0\DoublyLinkedListDemo.deps.json
+E:\DSA_C_sharp\DoublyLinkedListDemo\bin\Debug\net8.0\DoublyLinkedListDemo.runtimeconfig.json
+e:\DSA_C_sharp\DoublyLinkedListDemo\bin\Debug\net8.0\DoublyLinkedListDemo.dll
+e:\DSA_C_sharp\DoublyLinkedListDemo\bin\Debug\net8.0\DoublyLinkedListDemo.pdb
+e:\DSA_C_sharp\DoublyLinkedListDemo\obj\Debug\net8.0\DoublyLinkedListDemo.GeneratedMSBuildEditorConfig.editorconfig
+e:\DSA_C_sharp\DoublyLinkedListDemo\obj\Debug\net8.0\DoublyLinkedListDemo.AssemblyInfoInputs.cache
+e:\DSA_C_sharp\DoublyLinkedListDemo\obj\Debug\net8.0\DoublyLinkedListDemo.AssemblyInfo.cs
+e:\DSA_C_sharp\DoublyLinkedListDemo\obj\Debug\net8.0\DoublyLinkedListDemo.csproj.CoreCompileInputs.cache
+e:\DSA_C_sharp\DoublyLinkedListDemo\obj\Debug\net8.0\DoublyLinkedListDemo.sourcelink.json
+e:\DSA_C_sharp\DoublyLinkedListDemo\obj\Debug\net8.0\DoublyLinkedListDemo.dll
+e:\DSA_C_sharp\DoublyLinkedListDemo\obj\Debug\net8.0\refint\DoublyLinkedListDemo.dll
+e:\DSA_C_sharp\DoublyLinkedListDemo\obj\Debug\net8.0\DoublyLinkedListDemo.pdb
+E:\DSA_C_sharp\DoublyLinkedListDemo\obj\Debug\net8.0\DoublyLinkedListDemo.genruntimeconfig.cache
+E:\DSA_C_sharp\DoublyLinkedListDemo\obj\Debug\net8.0\ref\DoublyLinkedListDemo.dll
