@@ -1,0 +1,15 @@
+E:\DSA_C_sharp\StackUsingArrays\bin\Debug\net8.0\StackUsingArrays.exe
+E:\DSA_C_sharp\StackUsingArrays\bin\Debug\net8.0\StackUsingArrays.deps.json
+E:\DSA_C_sharp\StackUsingArrays\bin\Debug\net8.0\StackUsingArrays.runtimeconfig.json
+E:\DSA_C_sharp\StackUsingArrays\bin\Debug\net8.0\StackUsingArrays.dll
+E:\DSA_C_sharp\StackUsingArrays\bin\Debug\net8.0\StackUsingArrays.pdb
+E:\DSA_C_sharp\StackUsingArrays\obj\Debug\net8.0\StackUsingArrays.GeneratedMSBuildEditorConfig.editorconfig
+E:\DSA_C_sharp\StackUsingArrays\obj\Debug\net8.0\StackUsingArrays.AssemblyInfoInputs.cache
+E:\DSA_C_sharp\StackUsingArrays\obj\Debug\net8.0\StackUsingArrays.AssemblyInfo.cs
+E:\DSA_C_sharp\StackUsingArrays\obj\Debug\net8.0\StackUsingArrays.csproj.CoreCompileInputs.cache
+E:\DSA_C_sharp\StackUsingArrays\obj\Debug\net8.0\StackUsingArrays.sourcelink.json
+E:\DSA_C_sharp\StackUsingArrays\obj\Debug\net8.0\StackUsingArrays.dll
+E:\DSA_C_sharp\StackUsingArrays\obj\Debug\net8.0\refint\StackUsingArrays.dll
+E:\DSA_C_sharp\StackUsingArrays\obj\Debug\net8.0\StackUsingArrays.pdb
+E:\DSA_C_sharp\StackUsingArrays\obj\Debug\net8.0\StackUsingArrays.genruntimeconfig.cache
+E:\DSA_C_sharp\StackUsingArrays\obj\Debug\net8.0\ref\StackUsingArrays.dll
