@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StackUsingArrays")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24e738cb0c3e7df9e0670ea78337203dccd1241d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("StackUsingArrays")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StackUsingArrays")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
