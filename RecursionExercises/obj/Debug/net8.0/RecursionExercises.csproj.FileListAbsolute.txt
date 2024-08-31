@@ -1,0 +1,15 @@
+E:\DSA_C_sharp\RecursionExercises\bin\Debug\net8.0\RecursionExercises.exe
+E:\DSA_C_sharp\RecursionExercises\bin\Debug\net8.0\RecursionExercises.deps.json
+E:\DSA_C_sharp\RecursionExercises\bin\Debug\net8.0\RecursionExercises.runtimeconfig.json
+E:\DSA_C_sharp\RecursionExercises\bin\Debug\net8.0\RecursionExercises.dll
+E:\DSA_C_sharp\RecursionExercises\bin\Debug\net8.0\RecursionExercises.pdb
+E:\DSA_C_sharp\RecursionExercises\obj\Debug\net8.0\RecursionExercises.GeneratedMSBuildEditorConfig.editorconfig
+E:\DSA_C_sharp\RecursionExercises\obj\Debug\net8.0\RecursionExercises.AssemblyInfoInputs.cache
+E:\DSA_C_sharp\RecursionExercises\obj\Debug\net8.0\RecursionExercises.AssemblyInfo.cs
+E:\DSA_C_sharp\RecursionExercises\obj\Debug\net8.0\RecursionExercises.csproj.CoreCompileInputs.cache
+E:\DSA_C_sharp\RecursionExercises\obj\Debug\net8.0\RecursionExercises.sourcelink.json
+E:\DSA_C_sharp\RecursionExercises\obj\Debug\net8.0\RecursionExercises.dll
+E:\DSA_C_sharp\RecursionExercises\obj\Debug\net8.0\refint\RecursionExercises.dll
+E:\DSA_C_sharp\RecursionExercises\obj\Debug\net8.0\RecursionExercises.pdb
+E:\DSA_C_sharp\RecursionExercises\obj\Debug\net8.0\RecursionExercises.genruntimeconfig.cache
+E:\DSA_C_sharp\RecursionExercises\obj\Debug\net8.0\ref\RecursionExercises.dll
