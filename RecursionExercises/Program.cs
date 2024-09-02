@@ -8,6 +8,9 @@ Console.WriteLine("Factorial is: " + result);
 FibanacciGenerator fibanacciGenerator = new();
 Console.WriteLine(fibanacciGenerator.Fibonacci(5));
 
+ReccamanSequence reccamanSequence = new ReccamanSequence();
+int recc = reccamanSequence.ReccamanSequenceNumber(5,new HashSet<int>());
+Console.WriteLine(recc);
 class FactorialCalculator
 {
     public int Factorial(int n)
