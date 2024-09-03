@@ -11,6 +11,10 @@ Console.WriteLine(fibanacciGenerator.Fibonacci(5));
 ReccamanSequence reccamanSequence = new ReccamanSequence();
 int recc = reccamanSequence.ReccamanSequenceNumber(5,new HashSet<int>());
 Console.WriteLine(recc);
+
+PowerGen powerGen= new PowerGen();
+int testPow = powerGen.PowerOfNum(5,3);
+Console.WriteLine(testPow);
 class FactorialCalculator
 {
     public int Factorial(int n)
