@@ -1,20 +1,22 @@
 ﻿using System;
 using RecursionExercises;
 // Top-level statements
-var calculator = new FactorialCalculator();
-int result = calculator.Factorial(5);
-Console.WriteLine("Factorial is: " + result);
+// var calculator = new FactorialCalculator();
+// int result = calculator.Factorial(5);
+// Console.WriteLine("Factorial is: " + result);
 
-FibanacciGenerator fibanacciGenerator = new();
-Console.WriteLine(fibanacciGenerator.Fibonacci(5));
+// FibanacciGenerator fibanacciGenerator = new();
+// Console.WriteLine(fibanacciGenerator.Fibonacci(5));
 
-ReccamanSequence reccamanSequence = new ReccamanSequence();
-int recc = reccamanSequence.ReccamanSequenceNumber(5,new HashSet<int>());
-Console.WriteLine(recc);
+// ReccamanSequence reccamanSequence = new ReccamanSequence();
+// int recc = reccamanSequence.ReccamanSequenceNumber(5,new HashSet<int>());
+// Console.WriteLine(recc);
 
-PowerGen powerGen= new PowerGen();
-int testPow = powerGen.PowerOfNum(5,3);
-Console.WriteLine(testPow);
+// PowerGen powerGen= new PowerGen();
+// int testPow = powerGen.PowerOfNum(5,3);
+// Console.WriteLine(testPow);
+TowersOfHanoiClass.SolveHanoi(2,'A','C','B');
+
 class FactorialCalculator
 {
     public int Factorial(int n)
