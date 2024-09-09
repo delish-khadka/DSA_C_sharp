@@ -15,8 +15,9 @@ using RecursionExercises;
 // PowerGen powerGen= new PowerGen();
 // int testPow = powerGen.PowerOfNum(5,3);
 // Console.WriteLine(testPow);
-TowersOfHanoiClass.SolveHanoi(2,'A','C','B');
+// TowersOfHanoiClass.SolveHanoi(3,'A','C','B');
 
+Console.WriteLine(ExercisesCollection.SumOfDigits(123));
 class FactorialCalculator
 {
     public int Factorial(int n)
