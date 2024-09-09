@@ -8,8 +8,8 @@ public class ExercisesCollection
         if(value < 0){
             throw new ArgumentOutOfRangeException("Not valid");
         }
-        if(value == 1){
-            return 1;
+        if(value == 0){
+            return 0;
         }
         
         return value % 10 + SumOfDigits(value / 10);
