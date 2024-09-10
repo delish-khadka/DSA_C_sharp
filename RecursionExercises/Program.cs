@@ -17,7 +17,7 @@ using RecursionExercises;
 // Console.WriteLine(testPow);
 // TowersOfHanoiClass.SolveHanoi(3,'A','C','B');
 
-Console.WriteLine(ExercisesCollection.SumOfDigits(123));
+ExercisesCollection.FindPermutations("abc","");
 class FactorialCalculator
 {
     public int Factorial(int n)
