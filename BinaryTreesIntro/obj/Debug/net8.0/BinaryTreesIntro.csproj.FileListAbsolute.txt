@@ -1,0 +1,15 @@
+E:\DSA_C_sharp\BinaryTreesIntro\bin\Debug\net8.0\BinaryTreesIntro.exe
+E:\DSA_C_sharp\BinaryTreesIntro\bin\Debug\net8.0\BinaryTreesIntro.deps.json
+E:\DSA_C_sharp\BinaryTreesIntro\bin\Debug\net8.0\BinaryTreesIntro.runtimeconfig.json
+E:\DSA_C_sharp\BinaryTreesIntro\bin\Debug\net8.0\BinaryTreesIntro.dll
+E:\DSA_C_sharp\BinaryTreesIntro\bin\Debug\net8.0\BinaryTreesIntro.pdb
+E:\DSA_C_sharp\BinaryTreesIntro\obj\Debug\net8.0\BinaryTreesIntro.GeneratedMSBuildEditorConfig.editorconfig
+E:\DSA_C_sharp\BinaryTreesIntro\obj\Debug\net8.0\BinaryTreesIntro.AssemblyInfoInputs.cache
+E:\DSA_C_sharp\BinaryTreesIntro\obj\Debug\net8.0\BinaryTreesIntro.AssemblyInfo.cs
+E:\DSA_C_sharp\BinaryTreesIntro\obj\Debug\net8.0\BinaryTreesIntro.csproj.CoreCompileInputs.cache
+E:\DSA_C_sharp\BinaryTreesIntro\obj\Debug\net8.0\BinaryTreesIntro.sourcelink.json
+E:\DSA_C_sharp\BinaryTreesIntro\obj\Debug\net8.0\BinaryTreesIntro.dll
+E:\DSA_C_sharp\BinaryTreesIntro\obj\Debug\net8.0\refint\BinaryTreesIntro.dll
+E:\DSA_C_sharp\BinaryTreesIntro\obj\Debug\net8.0\BinaryTreesIntro.pdb
+E:\DSA_C_sharp\BinaryTreesIntro\obj\Debug\net8.0\BinaryTreesIntro.genruntimeconfig.cache
+E:\DSA_C_sharp\BinaryTreesIntro\obj\Debug\net8.0\ref\BinaryTreesIntro.dll
