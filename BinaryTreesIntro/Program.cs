@@ -43,3 +43,9 @@ Console.WriteLine();
 // Perform postorder traversal
 Console.WriteLine("PostOrder Traversal of Binary Search Tree (BST):");
 bst.PostOrderTraversal(bst.Root);
+
+Console.WriteLine();
+
+//Perform BFS
+Console.WriteLine("BFS Traversal of Binary Search Tree (BST):");
+bst.LevelOrderTraversal(bst.Root);

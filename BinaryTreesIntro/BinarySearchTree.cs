@@ -67,4 +67,31 @@ public class BinarySearchTree
         PostOrderTraversal(node.Right);  // Traverse the right subtree
         Console.Write(node.Value + " ");  // Visit the root node
     }
+
+    // Breadth First Search (Level-order traversal)
+    public void LevelOrderTraversal(Node node)
+    {
+        if (node == null) return;
+
+        Queue<Node> queue = new Queue<Node>();  // Create a queue to store nodes at each level
+        queue.Enqueue(node);  // Start with the root node
+
+        while (queue.Count > 0)
+        {
+            Node current = queue.Dequeue();  // Dequeue the next node
+            Console.Write(current.Value + " ");  // Process the current node
+
+            // Enqueue the left child if it exists
+            if (current.Left != null)
+            {
+                queue.Enqueue(current.Left);
+            }
+
+            // Enqueue the right child if it exists
+            if (current.Right != null)
+            {
+                queue.Enqueue(current.Right);
+            }
+        }
+    }
 }
