@@ -32,3 +32,14 @@ bst.Insert(8);
 // Perform inorder traversal
 Console.WriteLine("Inorder Traversal of Binary Search Tree (BST):");
 bst.InOrderTraversal(bst.Root);
+
+Console.WriteLine();
+// Perform preorder traversal
+Console.WriteLine("PreOrder Traversal of Binary Search Tree (BST):");
+bst.PreOrderTraversal(bst.Root);
+
+Console.WriteLine();
+
+// Perform postorder traversal
+Console.WriteLine("PostOrder Traversal of Binary Search Tree (BST):");
+bst.PostOrderTraversal(bst.Root);

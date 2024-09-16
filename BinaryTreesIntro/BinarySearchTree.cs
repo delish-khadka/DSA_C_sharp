@@ -47,4 +47,24 @@ public class BinarySearchTree
         Console.Write(node.Value + " ");  // Visit the root
         InOrderTraversal(node.Right);   // Traverse right subtree
     }
+
+    // Preorder traversal: Root -> Left subtree -> Right subtree
+    public void PreOrderTraversal(Node node)
+    {
+        if (node == null) return;
+
+        Console.Write(node.Value + " ");  // Visit the root node
+        PreOrderTraversal(node.Left);  // Traverse the left subtree
+        PreOrderTraversal(node.Right);  // Traverse the right subtree
+    }
+
+    // Postorder traversal: Left subtree -> Right subtree -> Root
+    public void PostOrderTraversal(Node node)
+    {
+        if (node == null) return;
+
+        PostOrderTraversal(node.Left);  // Traverse the left subtree
+        PostOrderTraversal(node.Right);  // Traverse the right subtree
+        Console.Write(node.Value + " ");  // Visit the root node
+    }
 }
