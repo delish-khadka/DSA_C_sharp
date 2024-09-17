@@ -49,3 +49,8 @@ Console.WriteLine();
 //Perform BFS
 Console.WriteLine("BFS Traversal of Binary Search Tree (BST):");
 bst.LevelOrderTraversal(bst.Root);
+
+Console.WriteLine();
+//Searching in BST
+Console.WriteLine("searching for a value in BST: ");
+Console.WriteLine(bst.Search(bst.Root,4));

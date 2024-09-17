@@ -94,4 +94,23 @@ public class BinarySearchTree
             }
         }
     }
+
+    // function to search a key in a BST
+    public bool Search(Node root, int key)
+    {
+        // Base Cases: root is null or key is
+        // present at root
+        if (root == null )
+            return false;
+        
+        if(key == root.Value)
+            return true;
+
+        // Key is greater than root's key
+        if (root.Value < key)
+            return Search(root.Right, key);
+
+        // Key is smaller than root's key
+        return Search(root.Left, key);
+    }
 }
