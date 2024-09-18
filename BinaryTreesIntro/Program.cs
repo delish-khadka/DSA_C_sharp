@@ -54,3 +54,12 @@ Console.WriteLine();
 //Searching in BST
 Console.WriteLine("searching for a value in BST: ");
 Console.WriteLine(bst.Search(bst.Root,4));
+
+Console.WriteLine();
+//Deleting a node in BST
+Console.WriteLine("deleting node 7 in BST");
+bst.Delete(bst.Root,7);
+
+// Perform inorder traversal
+Console.WriteLine("Inorder Traversal of Binary Search Tree (BST):");
+bst.InOrderTraversal(bst.Root);

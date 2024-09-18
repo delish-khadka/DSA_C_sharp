@@ -113,4 +113,68 @@ public class BinarySearchTree
         // Key is smaller than root's key
         return Search(root.Left, key);
     }
+
+    // Recursive method to delete a node from the BST
+    public Node Delete(Node current, int value)
+    {
+        // Step 1: Base case - If the tree is empty or node is not found
+        if (current == null)
+        {
+            return current;
+        }
+
+        // Step 2: Traverse the tree to find the node to delete
+        if (value < current.Value)
+        {
+            // Go left if the value to be deleted is smaller than the current node's value
+            current.Left = Delete(current.Left, value);
+        }
+        else if (value > current.Value)
+        {
+            // Go right if the value to be deleted is larger than the current node's value
+            current.Right = Delete(current.Right, value);
+        }
+        else
+        {
+            // Node to be deleted is found
+
+            // Case 1: Node has no children (leaf node)
+            if (current.Left == null && current.Right == null)
+            {
+                return null;
+            }
+            // Case 2: Node has one child (left or right)
+            else if (current.Left == null)
+            {
+                return current.Right; // Return the right child
+            }
+            else if (current.Right == null)
+            {
+                return current.Left;  // Return the left child
+            }
+
+            // Case 3: Node has two children
+            // Find the in-order successor (smallest node in the right subtree)
+            Node successor = FindMin(current.Right);
+
+            // Copy the successor's value to the current node
+            current.Value = successor.Value;
+
+            // Delete the in-order successor (it will have at most one child)
+            current.Right = Delete(current.Right, successor.Value);
+        }
+
+        // Return the (potentially updated) node pointer
+        return current;
+    }
+
+    // Helper function to find the minimum value node (used for in-order successor)
+    private Node FindMin(Node current)
+    {
+        while (current.Left != null)
+        {
+            current = current.Left;
+        }
+        return current;
+    }
 }
