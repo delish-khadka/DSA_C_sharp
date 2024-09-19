@@ -63,3 +63,6 @@ bst.Delete(bst.Root,7);
 // Perform inorder traversal
 Console.WriteLine("Inorder Traversal of Binary Search Tree (BST):");
 bst.InOrderTraversal(bst.Root);
+
+Console.WriteLine();
+Console.WriteLine(bst.GetHeight(bst.Root));

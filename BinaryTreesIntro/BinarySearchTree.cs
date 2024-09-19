@@ -177,4 +177,20 @@ public class BinarySearchTree
         }
         return current;
     }
+
+    // Method to calculate the height of the binary tree
+    public int GetHeight(Node node)
+    {
+        if (node == null)
+        {
+            return -1; // Base case: height of an empty tree is -1
+        }
+
+        // Recursively calculate the height of the left and right subtrees
+        int leftHeight = GetHeight(node.Left);
+        int rightHeight = GetHeight(node.Right);
+
+        // Return the maximum height between the two subtrees + 1 for the current node
+        return Math.Max(leftHeight, rightHeight) + 1;
+    }
 }
