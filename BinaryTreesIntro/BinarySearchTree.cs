@@ -193,4 +193,36 @@ public class BinarySearchTree
         // Return the maximum height between the two subtrees + 1 for the current node
         return Math.Max(leftHeight, rightHeight) + 1;
     }
+
+    // Recursive method to calculate the depth of a specific node
+    public int GetDepth(Node current, int value, int currentDepth)
+    {
+        // Base case: if the current node is null, return -1 (node not found)
+        if (current == null)
+        {
+            return -1;
+        }
+
+        // If the current node holds the value we are looking for, return the current depth
+        if (current.Value == value)
+        {
+            return currentDepth;
+        }
+
+        // Search in the left subtree
+        int leftDepth = GetDepth(current.Left, value, currentDepth + 1);
+        if (leftDepth != -1)
+        {
+            return leftDepth; // If found in the left subtree, return the depth
+        }
+
+        // Search in the right subtree
+        return GetDepth(current.Right, value, currentDepth + 1); // If not found in left, check right
+    }
+
+    // Helper function to start depth calculation from the root
+    public int GetDepth(int value)
+    {
+        return GetDepth(Root, value, 0); // Start the search from the root, with depth 0
+    }
 }

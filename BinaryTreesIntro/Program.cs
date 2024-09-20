@@ -66,3 +66,6 @@ bst.InOrderTraversal(bst.Root);
 
 Console.WriteLine();
 Console.WriteLine(bst.GetHeight(bst.Root));
+
+
+Console.WriteLine(bst.GetDepth(4));
