@@ -203,20 +203,18 @@ public class BinarySearchTree
             return -1;
         }
 
-        // If the current node holds the value we are looking for, return the current depth
-        if (current.Value == value)
-        {
+        //if the current node holds the value for the node
+        if(current.Value == value){
             return currentDepth;
         }
 
-        // Search in the left subtree
-        int leftDepth = GetDepth(current.Left, value, currentDepth + 1);
-        if (leftDepth != -1)
+        // If the value is less than the current node value
+        if (value < current.Value)
         {
-            return leftDepth; // If found in the left subtree, return the depth
+            return GetDepth(current.Left, value, currentDepth + 1);
         }
 
-        // Search in the right subtree
+        // Search in the right subtree if not found in left subtree
         return GetDepth(current.Right, value, currentDepth + 1); // If not found in left, check right
     }
 

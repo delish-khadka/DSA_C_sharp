@@ -68,4 +68,4 @@ Console.WriteLine();
 Console.WriteLine(bst.GetHeight(bst.Root));
 
 
-Console.WriteLine(bst.GetDepth(4));
+Console.WriteLine(bst.GetDepth(80));
