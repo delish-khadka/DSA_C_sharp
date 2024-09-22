@@ -69,3 +69,5 @@ Console.WriteLine(bst.GetHeight(bst.Root));
 
 
 Console.WriteLine(bst.GetDepth(80));
+
+Console.WriteLine("Is the unbalanced BST balanced? " + bst.IsBalanced(bst.Root));

@@ -223,4 +223,33 @@ public class BinarySearchTree
     {
         return GetDepth(Root, value, 0); // Start the search from the root, with depth 0
     }
+
+
+    // Check if the tree is balanced
+    public bool IsBalanced(Node root)
+    {
+        return CheckHeight(root) != -1;
+    }
+
+    // Function to calculate height and check if subtree is balanced
+    private int CheckHeight(Node node)
+    {
+        if (node == null)
+            return 0;  // Base case: null node has height 0
+
+        // Check the height of the left subtree
+        int leftHeight = CheckHeight(node.Left);
+        if (leftHeight == -1) return -1;  // Left subtree is not balanced
+
+        // Check the height of the right subtree
+        int rightHeight = CheckHeight(node.Right);
+        if (rightHeight == -1) return -1;  // Right subtree is not balanced
+
+        // If the height difference between left and right subtree is more than 1, return -1 (not balanced)
+        if (Math.Abs(leftHeight - rightHeight) > 1)
+            return -1;
+
+        // Return the height of the current node
+        return Math.Max(leftHeight, rightHeight) + 1;
+    }
 }
