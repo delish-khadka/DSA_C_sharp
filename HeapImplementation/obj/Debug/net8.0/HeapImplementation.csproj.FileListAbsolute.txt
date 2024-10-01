@@ -1,0 +1,15 @@
+E:\DSA_C_sharp\HeapImplementation\bin\Debug\net8.0\HeapImplementation.exe
+E:\DSA_C_sharp\HeapImplementation\bin\Debug\net8.0\HeapImplementation.deps.json
+E:\DSA_C_sharp\HeapImplementation\bin\Debug\net8.0\HeapImplementation.runtimeconfig.json
+E:\DSA_C_sharp\HeapImplementation\bin\Debug\net8.0\HeapImplementation.dll
+E:\DSA_C_sharp\HeapImplementation\bin\Debug\net8.0\HeapImplementation.pdb
+E:\DSA_C_sharp\HeapImplementation\obj\Debug\net8.0\HeapImplementation.GeneratedMSBuildEditorConfig.editorconfig
+E:\DSA_C_sharp\HeapImplementation\obj\Debug\net8.0\HeapImplementation.AssemblyInfoInputs.cache
+E:\DSA_C_sharp\HeapImplementation\obj\Debug\net8.0\HeapImplementation.AssemblyInfo.cs
+E:\DSA_C_sharp\HeapImplementation\obj\Debug\net8.0\HeapImplementation.csproj.CoreCompileInputs.cache
+E:\DSA_C_sharp\HeapImplementation\obj\Debug\net8.0\HeapImplementation.sourcelink.json
+E:\DSA_C_sharp\HeapImplementation\obj\Debug\net8.0\HeapImplementation.dll
+E:\DSA_C_sharp\HeapImplementation\obj\Debug\net8.0\refint\HeapImplementation.dll
+E:\DSA_C_sharp\HeapImplementation\obj\Debug\net8.0\HeapImplementation.pdb
+E:\DSA_C_sharp\HeapImplementation\obj\Debug\net8.0\HeapImplementation.genruntimeconfig.cache
+E:\DSA_C_sharp\HeapImplementation\obj\Debug\net8.0\ref\HeapImplementation.dll
