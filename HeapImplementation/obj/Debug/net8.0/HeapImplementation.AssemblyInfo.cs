@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HeapImplementation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ba79548364eba42066fb450c22d1383085cc7a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f83d584b78a6e3805c24360c6455058def6da29")]
 [assembly: System.Reflection.AssemblyProductAttribute("HeapImplementation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HeapImplementation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
